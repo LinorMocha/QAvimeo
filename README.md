@@ -1,7 +1,12 @@
 # QAvimeo
+copy project Url
 
-open katalon
-git clone to QAvimeo
+git clone using katalon / git bash
+
+after project open:
+
 open test suite
+
 open testVimeo
+
 press run (ctrl+shift+A)
