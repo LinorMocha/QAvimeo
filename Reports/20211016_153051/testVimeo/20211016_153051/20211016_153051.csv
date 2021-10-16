@@ -1,0 +1,13 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+testVimeo,Chrome 94.0.4606.81,,,2021-10-16 15:30:53,2021-10-16 15:31:25,31.896s,ERROR
+,,,,,,,
+Test Cases/openBrowser,Chrome 94.0.4606.81,,,2021-10-16 15:30:54,2021-10-16 15:30:58,4.383s,PASSED
+openBrowser(webBrowser),Chrome 94.0.4606.81,,,2021-10-16 15:30:54,2021-10-16 15:30:58,3.666s,PASSED
+maximizeWindow(),Chrome 94.0.4606.81,,,2021-10-16 15:30:58,2021-10-16 15:30:58,0.170s,PASSED
+"verifyMatch(getWindowTitle(), ""Vimeo | The world's only all-in-one video solution"", false)",Chrome 94.0.4606.81,,,2021-10-16 15:30:58,2021-10-16 15:30:58,0.072s,PASSED
+,,,,,,,
+Test Cases/loginTest,Chrome 94.0.4606.81,,,2021-10-16 15:31:25,2021-10-16 15:31:25,0.054s,ERROR
+"VIDEO_SELECTOR = String.format(""a[href=""%s""]"", videoUrl)",Chrome 94.0.4606.81,,,2021-10-16 15:31:25,2021-10-16 15:31:25,0.001s,PASSED
+"SECOND_VIDEO_SELECTOR = String.format(""a[href=""%s""]"", secondVideoUrl)",Chrome 94.0.4606.81,,,2021-10-16 15:31:25,2021-10-16 15:31:25,0.000s,PASSED
+driver = getWebDriver(),Chrome 94.0.4606.81,,,2021-10-16 15:31:25,2021-10-16 15:31:25,0.000s,PASSED
+"login = driver.findElement(By.className(""js-topnav_menu_auth""))",Chrome 94.0.4606.81,,,2021-10-16 15:31:25,2021-10-16 15:31:25,0.035s,ERROR
